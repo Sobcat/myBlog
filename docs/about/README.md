@@ -1,0 +1,8 @@
+---
+sidebar: auto
+---
+## aaa
+
+```
+javascript
+```

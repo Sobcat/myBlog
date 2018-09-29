@@ -18,15 +18,16 @@ module.exports = {
       },
       {
         text: '文章',
+        link: '/articles/',
         items: [
-          { text: 'JAVASCRIPT', link: '/articles/' },
+          { text: 'JAVASCRIPT', link: '/articles/js' },
           {
             text: 'HTML+CSS',
-            link: '/articles/'
+            link: '/articles/htmlcss'
           },
           {
             text: '前端',
-            link: '/articles/'
+            link: '/articles/frontend'
           },
         ]
       },
@@ -35,19 +36,7 @@ module.exports = {
         link: 'https://github.com/Sobcat'
       }
     ],
-    sidebar: [
-      {
-        title: 'Group 1',
-        collapsable: false,
-        children: [
-          '/'
-        ]
-      },
-      {
-        title: 'Group 2',
-        children: [ /* ... */]
-      }
-    ],
+    sidebar: 'auto',
     // sidebarDepth: 2,
     lastUpdated: 'last Updated'
   },

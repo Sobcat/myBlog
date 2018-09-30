@@ -40,5 +40,8 @@ module.exports = {
     // sidebarDepth: 2,
     lastUpdated: 'last Updated'
   },
-  base: '/myblog/'
+  base: '/myblog/',
+  markdown: {
+    lineNumbers: true
+  }
 };
